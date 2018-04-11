@@ -1,7 +1,9 @@
+<!-- managing links routes -->
 <router-outlet></router-outlet>
+<!-- link to home page see app.module.ts imports -->
 <a routerLink="/">Home Page</a>
 
-
+<!-- some tests -->
 
 <input type="text" [value]="text" (input)="updateValue($event)" />
 <!--<input type="text" [(ngModel)]="text2" />-->
@@ -36,6 +38,7 @@
 </table>
 -->
 
+<!-- local managing a db -->
 <table>
     <tr>
       <td>
@@ -64,7 +67,7 @@
 
 
 
-<!--The content below is only a placeholder and can be replaced.-->
+<!-- use functions on app.component.ts  -->
 <input type="text" [value]="myVariable" [disabled]="myDisabledValue" />
 
 <input type="text" value={{myVariable}} />
@@ -74,6 +77,8 @@
 
 <button (click)="callMyFunction()">hey there</button>
 
+
+<!-- tests -->
 oui
 <app-hello></app-hello>
 

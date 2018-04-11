@@ -13,6 +13,8 @@ export class DataComponent implements OnInit {
 
   constructor(private myFirstService : RecordsService) { }
 
+
+// use function of records.service.ts
   ngOnInit() {
     this.myFirstService.getData().subscribe(data =>{
           console.log("we got gg", data.obj)
