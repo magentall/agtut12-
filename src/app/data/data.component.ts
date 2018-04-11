@@ -18,8 +18,7 @@ export class DataComponent implements OnInit {
   ngOnInit() {
     this.myFirstService.getData().subscribe(data =>{
           console.log("we got gg", data.obj)
-          this.rec = data.obj
-  }
-
-}
+          this.rec = data.obj;
+               }
+            }
 }
